@@ -1,0 +1,155 @@
+<!--
+	Final HTML Project
+	Athena Hernandez - P5
+	11/01/20
+-->
+
+<!--
+	Ideas for later on: Spanish option, more animation!!, snap scrolling on blog perhaps
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<title>Athena Hernandez</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+	* {
+		background-color: #ffdacc;
+		color: #2f43d0;
+	}
+
+	.navbar-custom .navbar-nav .nav-link {
+		color: #2f43d0;
+	}
+
+	.navbar-custom:hover .navbar-nav:hover .nav-link:hover {
+		color: #fc7798;
+	}
+
+	.navbar-brand {
+		color: #2f43d0;
+	}
+
+	.navbar-brand:hover {
+		color: #fc7798;
+	}
+
+	h1 {
+		color: #2f43d0;
+		margin: 20px;
+		font-weight: bold;
+	}
+
+	.learn-more {
+		color: #2f43d0;
+		margin: 20px;
+		font-size: 20px;
+	}
+
+	.learn-more:hover {
+		color: #fc7798;
+		text-decoration: none;
+	}
+
+	.container-fluid {
+		padding: 30px;
+	}
+
+	.front-animation {
+		font-size: 125px;
+		position: relative;
+		text-align: right;
+		bottom: 0;
+		right: 0;
+	}
+
+	.social-media {
+	  display: flex;
+	  padding-left: 1em;
+	  padding-right: 1em;
+	  padding-top: 0.6em;
+	  padding-bottom: 0.6em;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	.social-media-item {
+	  padding-left: 0.6rem;
+	  padding-right: 0.6rem;
+	}
+
+
+
+</style>
+
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-custom">
+			<a class="navbar-brand" href="index.html"><b>ATHENA HERNANDEZ</b></a>
+			<ul class="navbar-nav ml-auto">
+				<!-- <li class="nav-item">
+					<a class="nav-link" href="passions.html">PASSIONS</a>
+				</li> -->
+				<li class="nav-item">
+					<a class="nav-link" href="blog.html">BLOG</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">ABOUT</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="spanish-index.html">ESPAÑOL</a>
+				</li>
+			</ul>
+		</nav>
+		<br /><br /><br /><br /><br /><br />
+
+		<h1>I'm Athena Hernandez,<br />a sophomore at The Bishop's School in<br /> San Diego, California. I love programming,<br /> figure skating, and music.</h1>
+		<br />
+		<!-- increase space between underline and text -->
+		<a class="learn-more" href="about.html">LEARN MORE ABOUT ME</a><a class="learn-more" href="mailto:athenahernandezc@gmail.com">CONTACT ME</a>
+
+		<h1 class="front-animation">print("Ayo!")</h1>
+		<div class="social-media">
+			<div class="social-media-item">
+				<a href="mailto:athenahernandezc@gmail.com">
+						<img src="images/email.svg" alt="Email">
+				</a>
+			</div>
+			<div class="social-media-item">
+				<a href="https://github.com/athenachernandez" target="_blank">
+					<img src="images/github.svg" alt="Github">
+				</a>
+			</div>
+			<div class="social-media-item">
+				<a href="https://instagram.com/appauwu" target="_blank">
+					<img src="images/instagram.svg" alt="Instagram">
+				</a>
+			</div>
+			<div class="social-media-item">
+				<a href="https://www.facebook.com/athenachernandez" target="_blank">
+					<img src="images/facebook.svg" alt="Facebook">
+				</a>
+			</div>
+			<div class="social-media-item">
+				<a href="https://www.twitter.com/athenachernandez" target="_blank">
+					<img src="images/twitter.svg" alt="Twitter">
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="main.js"></script>
+
+
+</html>
