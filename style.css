@@ -10,14 +10,13 @@
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 50%;
   width: 60%;
 }
 
 .header {
-  font-size: 200%;
-  font-family: Monaco, Courier, monospace;
-  font-weight: bold;
+    font-size: 200%;
+    font-family: Monaco, Courier, monospace;
+    font-weight: bold;
 }
 
 .body-text {
@@ -32,10 +31,10 @@
 }
 
 a {
-  color: #ffdc5d;
-  text-decoration: none;
+    color: #ffdc5d;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #ef7116;
+    color: #ef7116;
 }
