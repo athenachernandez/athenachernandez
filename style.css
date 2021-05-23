@@ -1,0 +1,41 @@
+* {
+  margin: 20px;
+  background-color: #82af37;
+  color: #ffffff;
+}
+
+.pfp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 50%;
+  width: 60%;
+}
+
+.header {
+  font-size: 200%;
+  font-family: Monaco, Courier, monospace;
+  font-weight: bold;
+}
+
+.body-text {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 130%;
+}
+
+.code {
+  font-family: Monaco, Courier, monospace;
+  font-size: 120%;
+  color: #ffdc5d;
+}
+
+a {
+  color: #ffdc5d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef7116;
+}
