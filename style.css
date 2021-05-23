@@ -17,6 +17,7 @@
   font-size: 200%;
   font-family: Monaco, Courier, monospace;
   font-weight: bold;
+  color: #ccd6dd;
 }
 
 .body-text {
@@ -37,4 +38,8 @@ a {
 
 a:hover {
   color: #ef7116;
+}
+
+.comment {
+  color: #ccd6dd;
 }
