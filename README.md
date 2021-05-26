@@ -1,5 +1,4 @@
 ### Hi there 👋
-- 📫 How to reach me: athenahernandezc@gmail.com
 - 😄 Pronouns: she/her
 - ❤️ Fun fact: I love Hi-Chews
 
