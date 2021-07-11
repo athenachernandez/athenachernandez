@@ -1,6 +1,7 @@
-### Hi there 👋
-- 😄 Pronouns: she/her
-- ❤️ Fun fact: I love Hi-Chews
+### Hola 👋
+- 😄 she/her
+- ❤️ I love Hi-Chews
+- 🙈 Web design <3
 
 <!--
 **athenachernandez/athenachernandez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
