@@ -3,89 +3,53 @@
   /* background-color: #82af37; */
   color: #000000;
   font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
 }
 
 .highlight {
-  background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #567AAE 65%);
+  background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #567baeb7 65%);
   font-size: 130%;
 }
-/* ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-ul::after {
-  display: block;
-  content: '';
-  clear: both;
-}
-ul li {
-  float: left;
-}
-ul a {
-  display: block;
-  padding: 0.25em 1em;
-  background-color: #eef;
-  text-decoration: none;
-} */
-
-/* .pfp {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  width: 80%;
-} */
 
 .intro {
   font-size: 500%;
   margin: 5%;
 }
 
-.down {
-  position: absolute;
-	bottom: 30;
-  align-self: flex-end;
-  margin: auto;
-  transform: translateX(50%);
-  width: 50%;         /*// TODO: Adjust sizes of icons when window smaller
-  justify-content: flex-end; */
+/* .footer {
+  position:absolute;
+  /* display: flex; */
+	/* bottom: 30; */
+  /* align-self: flex-end; */
+  /* margin: auto; */
+  /* transform: translateX(50%); */
+  /* width: 50%;        * TODO: Adjust sizes of icons when window smaller */
+  /* justify-content: flex-end; /* look at gmc website */
+
+
+.margin {
+  padding: 30px;
 }
 
+.social-media {
+  display: flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-item {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
 }
-/* 
-.header {
-  font-size: 200%;
-  font-family: Monaco, Courier, monospace;
-  font-weight: bold;
-  color: #ccd6dd;
-}
 
-.body-text {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 130%;
+.copyright {
+  text-align: center;
 }
-
-.code {
-  font-family: Monaco, Courier, monospace;
-  font-size: 120%;
-  color: #ffdc5d;
-}
-
-a {
-  color: #ffdc5d;
-  text-decoration: none;
-  margin: 0;
-}
-
-a:hover {
-  color: #ef7116;
-}
-
-.comment {
-  color: #ccd6dd;
-} */
