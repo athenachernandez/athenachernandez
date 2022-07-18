@@ -41,7 +41,7 @@
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.6em;
-  padding-bottom: 0.6em;
+  padding-bottom: 0;
   justify-content: center;
   align-items: center;
 }
@@ -67,7 +67,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 25px;
 }
 
 .white-background {
@@ -75,11 +74,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 25px;
 }
 
 .margin {
-  padding: 60px;
+  padding: 70px;
 }
 
 .section-title {
