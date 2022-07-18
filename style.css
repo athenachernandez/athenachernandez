@@ -1,31 +1,36 @@
 * {
-  margin: 10px;
-  /* background-color: #82af37; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
   color: #000000;
   font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
   box-sizing: border-box;
 }
 
-.highlight {
-  background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #567baeb7 65%);
-  font-size: 130%;
+.highlight-yellow {
+  background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #f4c2459a 65%);
+}
+
+.space {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.highlight-white {
+  background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #ffffff 65%);
+}
+
+.name {
+  font-size: 500%;
+  margin: 5%;
+  text-align: center;
 }
 
 .intro {
-  font-size: 500%;
+  font-size: 150%;
   margin: 5%;
 }
-
-/* .footer {
-  position:absolute;
-  /* display: flex; */
-	/* bottom: 30; */
-  /* align-self: flex-end; */
-  /* margin: auto; */
-  /* transform: translateX(50%); */
-  /* width: 50%;        * TODO: Adjust sizes of icons when window smaller */
-  /* justify-content: flex-end; /* look at gmc website */
-
 
 .margin {
   padding: 30px;
@@ -42,14 +47,70 @@
 }
 
 .social-media-item {
-  padding-left: 0.6rem;
-  padding-right: 0.6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .copyright {
   text-align: center;
+}
+
+.yellow-background {
+  background: #f4c2459a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.white-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.margin {
+  padding: 60px;
+}
+
+.section-title {
+  font-size: 300%;
+  text-align: center;
+  font-weight: normal;
+}
+
+.descTitle {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* .desc p {
+  width: 50%;
+} */
+
+p {
+  margin: 0;
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
+}
+
+.proj-title {
+  font-size: 150%;
+}
+
+.proj-text {
+  margin-top: 0;
+  font-style: italic;
+  padding-top: 5px;
+  font-size: 1rem;
+  margin-left: 5%;
 }
