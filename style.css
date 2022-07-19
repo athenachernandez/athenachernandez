@@ -8,6 +8,23 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1050px) {
+  .svg-column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .svg-column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  .triple-column {
+    width: 100%;
+  }
+}
+
 .highlight-yellow {
   background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #f4c2459a 65%);
 }
@@ -21,19 +38,37 @@
   background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #ffffff 65%);
 }
 
+.thin-highlight-white {
+  background: linear-gradient(180deg,rgba(255,255,255, 0) 80%, #ffffff 80%);
+}
+
+.thin-highlight-yellow {
+  background: linear-gradient(180deg,rgba(255,255,255, 0) 80%, #f4c2459a 80%);
+}
+
+a {
+  text-decoration: none;
+}
+
 .name {
   font-size: 500%;
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
 }
 
 .intro {
   font-size: 150%;
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 .margin {
-  padding: 30px;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .social-media {
@@ -50,11 +85,10 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
 .nav-bar {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .copyright {
@@ -76,14 +110,11 @@
   align-items: center;
 }
 
-.margin {
-  padding: 70px;
-}
-
 .section-title {
   font-size: 300%;
   text-align: center;
   font-weight: normal;
+  margin-top: 0px;
 }
 
 .descTitle {
@@ -91,14 +122,14 @@
   margin-bottom: 0;
 }
 
-/* .desc p {
-  width: 50%;
-} */
-
 p {
   margin: 0;
   margin-top: 1.5rem;
   font-size: 1.15rem;
+}
+
+.bio {
+  margin-top: 0px;
 }
 
 .proj-title {
@@ -111,4 +142,31 @@ p {
   padding-top: 5px;
   font-size: 1rem;
   margin-left: 5%;
+}
+
+.icon {
+  width: 1em;
+  display: inline;
+  position: relative;
+  top: 0.75em;
+}
+
+.dot-icon {
+  width: 1em;
+  display: inline;
+  position: relative;
+  top: 0.85em;
+}
+
+.title-icon {
+  width: 1em;
+  display: inline;
+  position: relative;
+  top: 0.4em;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.svg-center {
+  text-align: center;
 }

@@ -1,92 +1,119 @@
 <!DOCTYPE html />
+
+<!-- 
+    Hey... omggg inspect element (or you downloaded my code from Github lol)! 
+    If you're here, we should definitely be besties! 
+    Reach out, I would love to get to know you! :>
+    ____
+    (.   \
+    \  |  
+    \ |___(\--/)
+    __/    (  . . )
+    "'._.    '-.O.'
+    '-.  \ "|\
+    '.,,/'.,, 
+-->
+
 <html>
 
 <head>
     <meta charset=“UTF-8” />
     <link rel="stylesheet" href="style.css" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <link rel="shortcut icon" href="images/sun.svg" type="image/x-icon"/>
-    <!-- <link rel="apple-touch-icon" href="images/favicon.png" /> -->
+    <link rel="shortcut icon" href="images/bow.svg" type="image/x-icon"/>
     <title>Athena Hernandez</title>
 </head>
 
 <body>
-    <!-- <img src="images/logo.png" alt="Athena Hernández" class="pfp" /> -->
+    <div class="nav-bar">
+        <div class="float: left;">
+            <a href="index.html" class="nav-item"><img src="images/home.svg" /></a>
+            
+            <div style="float: right;">
+                <a href="#projects" class="nav-item"><img src="images/closedfolder.svg" /></a>
+                <a href="#about-me" class="nav-item"><img src="images/bow.svg" /></a>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!-- animate this? -->
+    <p class="name"><span class="highlight-yellow">Athena Hernandez</span></p> 
+    <p class="intro">&#161;Hola, Mundo! I'm Athena, a bilingual girl from <span class="thin-highlight-yellow">San Diego</span>, California. I'm currently a rising high school senior who loves to 
+        learn anything related to <span class="thin-highlight-yellow">computer science</span>. I also love to <span class="thin-highlight-yellow">figure skate</span>, <span class="thin-highlight-yellow">write</span>, <span class="thin-highlight-yellow">tutor</span>, and <span class="thin-highlight-yellow">eat Mexican food</span>. I adore my two chihuahus: Finito and 
+        CeeLo&#8212;yeah, like the rapper. Keep scrolling to learn more about me!
+    </p>
     
-    <!-- # Who am I? -->
-    <p class="nav-bar">
-        <span><a href="index.html"><img src="images/home.svg" /></a></span>
-        <a href=""><img class="space" src="images/closedfolder.svg" /><img src="images/sun.svg" /></a>
-        </p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <!-- animate this? -->
-        <p class="name"><span class="highlight-yellow">Athena Hernandez</span></p> 
-        <p class="intro">&#161;Hola, Mundo! I'm Athena, a bilingual girl from San Diego, California. I'm currently a rising high school senior who loves to 
-            learn anything related to computer science. I also love to figure skate, write, tutor, and eat Mexican food. I adore my two chihuahus: Finito and 
-            CeeLo&#8212;yeah, like the rapper. Keep scrolling to learn more about me!
-        </p>
-
-        <div class="yellow-background">
-            <div class="margin">
-                <h2 class="section-title"><span class="highlight-white">Current Projects</span></h2>
-                <p class="proj-title">Cybersecurity Researcher @ NYU<span style="float: right;font-size: 14px;">&nbsp;Jul 2022&#8212;Present</span></p>
-                <p class="proj-text">Currently researching "Software Supply Chain Improvements to TUF" at the Secure Systems Lab under Justin Cappos, Lukas Pühringer, and Aditya Sirish on The Winston Foundation's scholarship as part of the NYU GSTEM program.</p>
-                <p class="proj-title">Cofounder & Tutor @ Global Milestone<span style="float: right;font-size: 14px;">&nbsp;Mar 2020&#8212;Present</span></p>
-                <p class="proj-text">Teaching computer science weekly, specifically Python and Scratch, in Spanish to elementary students in Tijuana, Mexico.</p>
-            </div>
+    <div id="projects" class="yellow-background">
+        <div class="margin">
+            <h2 class="section-title"><span class="highlight-white">Current Projects</span><img class="title-icon" src="images/currentfolder.svg" /></h2>
+            <p class="proj-title">Cybersecurity Researcher @ NYU<span style="float: right;font-size: 14px;">&nbsp;Jul 2022&#8212;Present</span></p>
+            <p class="proj-text">Currently researching "Software Supply Chain Improvements to TUF" at the <a href="https://ssl.engineering.nyu.edu/" target="_blank"><span class="thin-highlight-white">Secure Systems Lab</span></a> under Justin Cappos, Lukas Pühringer, and Aditya Sirish on The Winston Foundation's scholarship as part of the <span class="thin-highlight-white"><a href="https://cims.nyu.edu/gstem/" target="_blank">NYU GSTEM program</a></span>.</p>
+            <p class="proj-title">Cofounder & Tutor @ <a href="https://globalmilestone.org" target="_blank"><span class="thin-highlight-white">Global Milestone</a></span><span style="float: right;font-size: 14px;">&nbsp;Mar 2020&#8212;Present</span></p>
+            <p class="proj-text">Teaching computer science classes weekly, specifically Python and Scratch, in Spanish to elementary students in Tijuana, Mexico.</p>
         </div>
-        <div class="white-background">
-            <div class="margin">
-                <h2 class="section-title"><span class="highlight-yellow">Past Projects</span></h2>
-                <p class="proj-title">Head Ambassasdor, Intern, & TA @ League of Amazing Programmers<span style="float: right;font-size: 14px;">&nbsp;Mar 2020&#8212;Aug 2021</span></p>
-                <p class="proj-text">I assisted with Java app development classes as a TA to reciprocate the knowledge I gained from studying at the League. I also interned under a few of the teachers over the summer of 2020. Later, through 2021, I became a head ambassador and helped with programming events to enrich students' experiences.</p>
-            </div>
+    </div>
+    <div class="white-background">
+        <div class="margin">
+            <h2 class="section-title"><span class="highlight-yellow">Past Projects</span><img class="title-icon" src="images/archivefolder.svg" /></h2>
+            <p class="proj-title">Head Ambassasdor, Intern, & TA @ <a href="https://www.jointheleague.org/" target="_blank"><span class="thin-highlight-yellow">League of Amazing Programmers</span></a><span style="float: right;font-size: 14px;">&nbsp;Mar 2020&#8212;Aug 2021</span></p>
+            <p class="proj-text">I assisted with <a href="http://level7.jointheleague.org/COVIDMAP/" target="_blank"><span class="thin-highlight-yellow">Java app development</span></a> classes as a TA to reciprocate the knowledge I gained from studying at the League. I also interned under a few of the teachers over the summer of 2020. Later, through 2021, I became a head ambassador and helped with programming events to enrich students' experiences.</p>
+            <p class="proj-title">HSEP Student @ UC Berkeley<span style="float: right;font-size: 14px;">&nbsp;Sep 2020&#8212;Nov 2020</span></p>
+            <p class="proj-text">Participated in the Society of Women Engineers (SWE)'s fall <a href="https://swe.berkeley.edu/hsep" target="_blank"><span class="thin-highlight-yellow">High School Engineering Program (HSEP)</span></a> at UC Berkeley.</p>
         </div>
-        <div class="yellow-background">
-            <div class="margin">
-                <h2 class="section-title"><span class="highlight-white">About Me</span></h2>
+    </div>
+    <div id="about-me" class="yellow-background">
+        <div class="margin">
+            <h2 class="section-title"><span class="highlight-white">About Me</span><img class="title-icon" src="images/nametag.svg" /></h2>
+            <p>So you got to know a little bit about my studies and goals, but that's not the only thing I care about. And, well, 
+                this is a personal website after all, so I've gotta share some more personal stuff here. My pronouns are <span class="thin-highlight-white">she/her</span>.
+                I have a lot of hobbies. One of my main hobbies is <span class="thin-highlight-white">figure skating</span>. 
+                I'm currently working on my senior moves in the field, and I'm an open juvenile skater. I love to listen to 
+                <span class="thin-highlight-white">music</span>—especially anything hype. I play <span class="thin-highlight-white">violin</span> 
+                and participate in my school's orchestra. I really like LEGOs. Particularly the LEGO <span class="thin-highlight-white">flower bouquet</span> that sits in the corner
+                of my desk. On late Friday nights, I like to hop on <span class="thin-highlight-white">Minecraft</span> and play the classic server survival or Hypixel's Skywars. 
+                I'm a <span class="thin-highlight-white">dog</span> person, but I can't say I'm not a cat person because I've never had one. If you couldn't already tell, I plan on majoring in 
+                <span class="thin-highlight-white">CS</span> later on in college and I'm working toward <span class="thin-highlight-white">closing the diversity gap</span> that currently exist in this field.
+            </p>
+            <div class="svg-center">  
+                <img src="images/pronouns.svg" /> <img src="images/iceskate.svg" /> <img src="images/headphones.svg" /> <img src="images/treble.svg" /> <img src="images/flower.svg" /> <img src="images/minecraft.svg" /> <img src="images/dog.svg" /> <img src="images/bow2.svg" /> <img src="images/motherboard.svg" />
             </div>
-        </div>
-
-        <div class="margin bottom-margin">
-            <div class="footer social-media">
-                <!--<a href="mailto:athenahernandezc@gmail.com"><img src="images/mail.svg" /></a>-->
-                <div class="social-media-item">
-                    <a href="https://www.linkedin.com/in/athenachernandez/" target="_blank" ><img class="space" src="images/linkedin.svg" /></a><a href="https://instagram.com/athenachernandez" target="_blank" ><img class="space" src="images/instagram.svg" /></a><a href="https://github.com/athenachernandez" target="_blank"><img class="space" src="images/github.svg" /></a><a href="https://open.spotify.com/user/gk0kuxaylo70r5aozbg4hcv8z?si=3b0623c2a91940c0" target="_blank"><img class="space" src="images/spotify.svg" /></a><a href="https://www.youtube.com/channel/UC52pApYOMvwnyfosh-h87Aw" target="_blank"><img class="space" src="images/youtube.svg" /></a>
+            <p class="bio">I love programming and learning anything I can about it. I'm very comfortable with <span class="thin-highlight-white">Python</span> and <span class="thin-highlight-white">Java</span>. I built <span class="thin-highlight-white"><a href="http://level7.jointheleague.org/COVIDMAP/" target="_blank">this COVID-19 app</a></span> in Processing summer after freshman year at the League. I'm gradually learning <span class="thin-highlight-white">C++</span>. 
+                I'm pretty good with web design with <span class="thin-highlight-white">HTML</span>, <span class="thin-highlight-white">CSS</span>, <span class="thin-highlight-white">Bootstrap5</span>, and <span class="thin-highlight-white">JavaScript</span>, but there's always more stuff to look up. I've had some experience in <span class="thin-highlight-white">Django</span> for backend
+                development and <span class="thin-highlight-white">Swift</span> for iOS app development. Currently, I'm learning more about cybersecurity through working with <a href="https://in-toto.io/" target="_blank"><span class="thin-highlight-white">in-toto</span></a> and <a href="https://theupdateframework.io/" target="_blank"><span class="thin-highlight-white">The Update Framework (TUF)</span></a>. 
+                In college, I hope to learn more about machine learning. #qt&pi; #womxninstem</p>
+                <div class="svg-center">
+                    <img src="images/terminal.svg" /> <img src="images/hacker.svg" /> <img src="images/bug.svg" /> <img src="images/target.svg" /> <img src="images/socket.svg" /> <img src="images/pi2.svg" /> <img src="images/volunteer.svg" /> <img src="images/robot.svg" /> <img src="images/hierarchy.svg" />
                 </div>
-                <!-- <div class="copyright">
-                    <p>Copyright © 2022 Athena Hernandez. All rights reserved.</p>
-                </div> -->
-            </div> 
-            <p class="copyright">Copyright © 2022 Athena Hernandez. All rights reserved.</p>
-        </div>
-        <!--         
-            Ayo! I'm Athena Hernandez, a bilingual girl from San Diego, California. I'm currently a junior who absolutely loves anything and everything concerning computer science. I also love to figure skate,
-            play basketball, write, tutor, and much more. I adore my two chihuahuas: Finito and CeeLo &#8212; yep, like the rapper. Check out the
-            CSS adaptation of myself down below to learn a little more about me!</p>
-            <p class="code">.athena {
-                height: 5' 5";
-                eye-color: blue;
-                Discord: athena#2969;
-                fav-candy: Hi-Chews;
-            }
-        </p> -->
-        
-        <!-- # Check me out! -->
-        <!-- Add VSCO
-            <p class="header"># Check me out! &#x1F605;</p>
-            <p class="body-text">Hover over items in the list and click on them when they turn orange to visit my personal
-                pages! You can also email me if you have any questions.</p>
-                <p class="code">my_socials = ['<a href="https://www.linkedin.com/in/athena-hernandez-8b47a7203/" target="_blank">&#x1F4BC; LinkedIn</a>', '<a href="https://www.instagram.com/athenachernandez/" target="_blank">&#x1F4F8; Instagram</a>', '<a href="https://www.youtube.com/channel/UC52pApYOMvwnyfosh-h87Aw/featured" target="_blank">&#x1F3A5; YouTube</a>', '<a href="https://open.spotify.com/user/gk0kuxaylo70r5aozbg4hcv8z?si=b8b9dba30f6c4956" target="_blank">&#x1F941; Spotify</a>', '<a href="https://twitter.com/AthenaHernandez" target="_blank">&#x1F425; Twitter</a>', '<a href="https://github.com/athenachernandez" target="_blank">&#x1F47E; Github</a>', '<a href="https://www.facebook.com/athenachernandez" target="_blank">&#x1F475; Facebook</a>']</p>
-                <p class="code">my_email = "<a href="mailto:athenahernandezc@gmail.com">athenahernandezc@gmail.com</a>" <span class="comment"># I'll get back to you ASAP :)</span></p> -->
-                
-                <!-- #  ¿Prefieres leer en español? -->
-                <!-- <p class="header"># &#191;Prefieres leer en espa&ntilde;ol? &#x1F440;</p>
-                    <p class="body-text">Para espa&ntilde;ol, haga clic aqu&iacute;.</p> -->
+                <p class="bio">My Mexican heritage is an important part of who I am. As leader of the <span class="thin-highlight-white">Latinx American Student Organization (LASO)</span> club at my school, 
+                    I make sure to stay connected with other students like me through club meetings and school events we host. Do you recognize the women figure on the bottom right? That's Friday Kahlo.
+                    She was an extremely talented painter who worked on portaits that's emphasize Mexican culture. Check out some of her paintings <span class="thin-highlight-white"><a href="https://www.frida-kahlo-foundation.org/" target="_blank">here</a></span>. My favorite's <span class="thin-highlight-white"><i>Self-Portrait on the Borderline Between Mexico and the United States</i></span>.</p>
+                    <div class="svg-center">
+                        <img src="images/dotd.svg" /> <img src="images/taco.svg" /> <img src="images/passport.svg" /> <img src="images/futurama.svg" /> <img src="images/flipflop.svg" /> <img src="images/corn.svg" /> <img src="images/pepper.svg" /> <img src="images/maracas.svg" /> <img src="images/frida.svg" />
+                    </div>
                     
-                    <!-- <p class="copyright body-text">Copyright &#169; 2022 Athena Hernandez. All rights reserved.</p> -->
-                </body>
+                    
+                    <p class="bio">I love food. Especially Mexican food. Especially <span class="thin-highlight-white"><i>tacos de carne asada</i></span> and <span class="thin-highlight-white"><i>pozole blanco</i></span>. 
+                        This section is mostly due to the fact that I couldn't resist how cute these svgs were. But, sadly, there weren't any icons beyond just ingredients 
+                        (sadge), so here are a few of my favorite basics I guess? Side note: I've noticed that a lot of Ketchup lovers hate <span class="thin-highlight-white">tomatoes</span>. I'm the opposite of that. Also if you haven't tried <span class="thin-highlight-white">pears</span> with <span class="thin-highlight-white">lemon</span> and salt, 
+                        you need to drop whatever your doing right now and try it. Sea salt caramel or <i>dulce de leche</i> <span class="thin-highlight-white">ice cream</span> is also the best flavor.</p>
+                        <div class="svg-center">
+                            <img src="images/blueberry.svg" /> <img src="images/lemonade.svg" /> <img src="images/rasberry.svg" /> <img src="images/lemon.svg" /> <img src="images/rice.svg" /> <img src="images/tomato.svg" /> <img src="images/pear.svg" /> <img src="images/spinach.svg" /> <img src="images/icecream.svg" />
+                        </div>
+                        <p class="bio">Email me at <span class="thin-highlight-white">athenahernandezc <img class="icon" src="images/atsymbol.svg" /> gmail <img class="dot-icon" src="images/dot.svg" />com</span> or reach out on the social media platforms linked below if you wanna stay in touch!</p>
+                    </div>
+                </div>
                 
-                </html>
                 
+                <div class="margin bottom-margin">
+                    <div class="footer social-media">
+                        <div class="social-media-item">
+                            <a href="https://www.linkedin.com/in/athenachernandez/" target="_blank" ><img class="space" src="images/linkedin.svg" /></a><a href="https://instagram.com/athenachernandez" target="_blank" ><img class="space" src="images/instagram.svg" /></a><a href="https://github.com/athenachernandez" target="_blank"><img class="space" src="images/github.svg" /></a><a href="https://open.spotify.com/user/gk0kuxaylo70r5aozbg4hcv8z?si=3b0623c2a91940c0" target="_blank"><img class="space" src="images/spotify.svg" /></a><a href="https://www.youtube.com/channel/UC52pApYOMvwnyfosh-h87Aw" target="_blank"><img class="space" src="images/youtube.svg" /></a>
+                        </div>
+                    </div> 
+                    <p class="copyright">Copyright © 2022 Athena Hernandez. All rights reserved.</p>
+                </div>
+            </body>
+            
+            </html>
+            
