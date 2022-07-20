@@ -92,6 +92,10 @@ a {
   margin-right: 40px;
 }
 
+.nav-item {
+  margin-right: 20px;
+}
+
 .copyright {
   text-align: center;
 }
