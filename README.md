@@ -1,7 +1,7 @@
 ### Hola 👋
-- 😄 she/her
-- ❤️ I love Hi-Chews
-- 🙈 Web design <3
+- Emoji enthusiast 💞
+- Loves puns 😃
+- Hi-Chew lover 🍬
 
 <!--
 **athenachernandez/athenachernandez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
